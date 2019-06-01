@@ -1,0 +1,437 @@
+body {
+
+  font-family: "Montserrat";
+
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+#header {
+
+  background-color: #145374;
+  z-index: 0;
+  position: relative;
+
+}
+
+h1 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #F5F5F5;
+
+}
+
+h2 {
+
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.container-fluid1 {
+
+  padding: 3% 12% 11.5%;
+
+}
+
+.nav-item {
+
+  padding: 0 18px;
+
+}
+
+.nav-link {
+
+  font-size: 1.2rem;
+  font-weight: lighter;
+
+}
+
+
+#navigationBar {
+
+  padding: 0 0 5rem;
+
+}
+
+#brandName {
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+#logo {
+  width: 6rem;
+}
+
+.styledText1 {
+  color: whitesmoke;
+  position: relative;
+  top: 2rem;
+}
+
+.topCloud {
+
+  position: relative;
+  top: 1rem;
+}
+
+.bottomCloud {
+
+  position: absolute;
+  width: 8rem;
+  top: 7rem;
+  right: 7rem;
+}
+
+.mountain {
+
+  position: relative;
+  width: 65%;
+  left: 21rem;
+  bottom: 7.8rem;
+  margin-bottom: -16.9rem;
+
+}
+
+
+#about-me {
+
+  padding: 5% 26%;
+  background-color: #f4f9f4;
+  position: relative;
+
+}
+
+
+.containerBox {
+
+  padding: 4.5%;
+  text-align: center;
+
+}
+
+#ericImage {
+
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 2rem;
+  bottom: 4rem;
+
+}
+
+
+.styledHeading {
+
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+.styledP {
+
+  color: #8f8f8f;
+
+}
+
+
+/* New Section: Skills */
+
+#skills {
+
+padding: 3% 12% 11.5%;
+background-color: #348498;
+color: whitesmoke;
+line-height: 2;
+
+}
+
+.skillContainerBox {
+  padding: 2.5%;
+}
+
+#skillHeading {
+
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+#computerImage {
+
+  float: left;
+  position: relative;
+  bottom: 2.5rem;
+  margin-right: 2rem;
+}
+
+#frontEndSkill {
+
+  text-align: left;
+}
+
+#designImage {
+
+  float: right;
+  position: relative;
+  margin-left: 2rem;
+
+}
+
+#designSkill {
+  text-align: center;
+  position: relative;
+  top: 2rem;
+}
+
+#backendImage {
+  float: left;
+  position: relative;
+  top: 8rem;
+  margin-right: 2rem;
+}
+
+#backEndSkill {
+  text-align: left;
+  position: relative;
+  top: 11rem;
+  margin-bottom: 7rem;
+}
+
+.skillImages {
+  border-radius: 50%;
+  width: 14rem;
+}
+
+/*New Section: Portfolio-Web*/
+
+#portfolio-web {
+
+  padding: 100px;
+  text-align: center;
+  background-color: #f4f9f4;
+
+}
+
+.pricingCard {
+
+  padding: 3% 2%;
+
+}
+
+.appHeading {
+  font-weight: bold;
+}
+
+.hr {
+  border: 1px solid black;
+  position: relative;
+  bottom: 5rem;
+}
+
+.webAppImage {
+  border-radius: 5%;
+  width: 28rem;
+  margin-bottom: 2rem;
+}
+
+.lister {
+  width: 26.5rem;
+}
+
+.codemon {
+  width: 48rem;
+}
+
+/*New Section: Portfolio-iOS*/
+
+#portfolio-ios {
+
+  padding: 100px;
+  text-align: center;
+  background-color: #f4f9f4;
+
+}
+
+.iosAppImage {
+  width: 10rem;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+}
+
+.appDescription {
+  font-weight: bold;
+}
+
+.btn {
+
+  margin-bottom: 1rem;
+}
+
+  /*New Section: Call To Action:*/
+
+#contact {
+
+  background-color: #145374;
+  padding: 8% 10% 10%;
+
+
+}
+
+#contactText {
+
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #F5F5F5;
+  line-height: 3;
+
+}
+
+/* New Section: Footer */
+
+#footer {
+
+  padding: 4% 10%;
+  padding-bottom: 1%;
+
+}
+
+#connectText {
+  font-weight: bold;
+}
+
+.container-fluid2 {
+
+  text-align: center;
+
+}
+
+#iconContainer {
+
+  margin: 1rem;
+
+}
+
+#emailIcon {
+
+  color: whitesmoke;
+}
+
+#linkedInAnchor {
+
+  color: black;
+}
+
+.contactButtons {
+
+  width: 15%;
+  margin: .5rem;
+}
+
+.socialMediaIcons {
+
+  padding: 1% 1.2%;
+  font-size: 1.2rem;
+  color: #343A40;
+
+}
+
+.socialMediaIcons:hover {
+
+  color: #22262A;
+
+}
+
+/*Media Queries*/
+
+@media (max-width: 750px) {
+
+  .mountain {
+    position: static;
+  }
+
+  .webAppImage {
+    width: 10rem;
+  }
+
+  .iosAppImage {
+    width: 5rem;
+  }
+
+}
+
+
+@media (max-width: 940px) {
+
+  .skillContainerBox {
+    position: static;
+  }
+
+  .skillImages {
+    float: none;
+    width: 8rem;
+  }
+
+  #frontEndSkill {
+    text-align: left;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  #designSkill {
+    position: static;
+    margin-bottom: 8rem;
+  }
+
+  #backEndSkill {
+    position: static;
+    text-align: left;
+  }
+
+  #backendImage {
+
+    position: relative;
+    top: -.5rem;
+  }
+
+
+}
+
+@media (max-width: 1028px) {
+
+  #mainImage {
+
+    transform: rotate(0);
+    position: static;
+
+  }
+
+  #title {
+
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 1239px) {
+
+  .contactButtons {
+    width: 10rem;
+  }
+}
