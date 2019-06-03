@@ -84,26 +84,26 @@ h2 {
 .styledText1 {
   color: whitesmoke;
   position: relative;
-  top: 2rem;
+  bottom: 2rem;
 }
 
 .topCloud {
 
   position: relative;
-  top: 1rem;
+  bottom: 3rem;
 }
 
 .bottomCloud {
 
   position: absolute;
   width: 8rem;
-  top: 7rem;
-  right: 7rem;
+  top: 5rem;
+  right: 3rem;
 }
 
 .mountain {
 
-  position: relative;
+  position: absolute;
   width: 65%;
   left: 21rem;
   bottom: 7.8rem;
@@ -416,19 +416,13 @@ line-height: 2;
 
 }
 
-@media (max-width: 1028px) {
-
-  #mainImage {
-
-    transform: rotate(0);
-    position: static;
+@media (max-width: 750px) {
+  .mountain {
+    display: none;
 
   }
-
-  #title {
-
-    text-align: center;
-
+  .bottomCloud{
+    display: none;
   }
 }
 
