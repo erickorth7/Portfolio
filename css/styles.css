@@ -104,7 +104,7 @@ h2 {
 .mountain {
 
   position: absolute;
-  width: 65%;
+  width: 37rem;
   left: 21rem;
   bottom: 7.8rem;
   margin-bottom: -16.9rem;
@@ -430,5 +430,11 @@ line-height: 2;
 
   .contactButtons {
     width: 10rem;
+  }
+}
+
+@media (max-width: 2000px) {
+  .mountain {
+    width: 37rem;
   }
 }
