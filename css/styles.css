@@ -22,6 +22,7 @@ a:hover {
   background-color: #145374;
   z-index: 0;
   position: relative;
+  height: 40.6rem;
 
 }
 
@@ -105,8 +106,8 @@ h2 {
 
   position: relative;
   width: 37rem;
-  left: 21rem;
-  bottom: 7.8rem;
+  left: 20rem;
+  bottom: 8rem;
   margin-bottom: -16.9rem;
 
 }
@@ -416,12 +417,11 @@ line-height: 2;
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .mountain {
     display: none;
-
   }
-  .bottomCloud{
+  .bottomCloud {
     display: none;
   }
 }
@@ -430,11 +430,5 @@ line-height: 2;
 
   .contactButtons {
     width: 10rem;
-  }
-}
-
-@media (max-width: 2000px) {
-  .mountain {
-    width: 37rem;
   }
 }
