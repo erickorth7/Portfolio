@@ -103,7 +103,7 @@ h2 {
 
 .mountain {
 
-  position: absolute;
+  position: relative;
   width: 37rem;
   left: 21rem;
   bottom: 7.8rem;
