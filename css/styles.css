@@ -13,16 +13,12 @@ a:hover {
   color: white;
 }
 
-.favicon {
-  border-radius: 50%;
-}
-
 #header {
 
   background-color: #145374;
   z-index: 0;
   position: relative;
-  height: 40.6rem;
+  height: 650.5px;
 
 }
 
@@ -102,14 +98,15 @@ h2 {
   right: 3rem;
 }
 
+.mountainContainer {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+
+}
+
 .mountain {
-
-  position: relative;
   width: 37rem;
-  left: 20rem;
-  bottom: 8rem;
-  margin-bottom: -16.9rem;
-
 }
 
 
@@ -233,7 +230,7 @@ line-height: 2;
 
 }
 
-.pricingCard {
+.appCard {
 
   padding: 3% 2%;
 
@@ -241,6 +238,12 @@ line-height: 2;
 
 .appHeading {
   font-weight: bold;
+}
+
+
+.btn {
+
+  margin-bottom: 1rem;
 }
 
 .hr {
@@ -281,11 +284,6 @@ line-height: 2;
 
 .appDescription {
   font-weight: bold;
-}
-
-.btn {
-
-  margin-bottom: 1rem;
 }
 
   /*New Section: Call To Action:*/
@@ -366,10 +364,6 @@ line-height: 2;
 
 @media (max-width: 750px) {
 
-  .mountain {
-    position: static;
-  }
-
   .webAppImage {
     width: 10rem;
   }
@@ -412,17 +406,6 @@ line-height: 2;
 
     position: relative;
     top: -.5rem;
-  }
-
-
-}
-
-@media (max-width: 850px) {
-  .mountain {
-    display: none;
-  }
-  .bottomCloud {
-    display: none;
   }
 }
 
