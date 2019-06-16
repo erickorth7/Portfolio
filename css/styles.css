@@ -364,6 +364,20 @@ line-height: 2;
 
 @media (max-width: 750px) {
 
+  .bottomCloud {
+    display: none;
+  }
+
+  .mountain {
+    width: 25rem;
+  }
+
+  #ericImage {
+    width: 200px;
+    height: 200px;
+    margin-top: 5rem;
+  }
+
   .webAppImage {
     width: 10rem;
   }
