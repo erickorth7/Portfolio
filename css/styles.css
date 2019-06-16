@@ -391,7 +391,7 @@ line-height: 2;
   }
 
   .appHeading {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding: 15%;
   }
 
@@ -406,7 +406,7 @@ line-height: 2;
 
   .skillImages {
     float: none;
-    width: 8rem;
+    width: 6rem;
   }
 
   #frontEndSkill {
