@@ -444,6 +444,16 @@ line-height: 2;
   }
 }
 
+@media (max-width: 1220px) {
+  .webAppImage {
+    width: 15rem;
+  }
+
+  .codemon {
+    width: 20rem;
+  }
+}
+
 @media (max-width: 1239px) {
 
   .contactButtons {
