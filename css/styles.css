@@ -1,3 +1,5 @@
+/* Global CSS */
+
 body {
 
   font-family: "Montserrat";
@@ -47,6 +49,8 @@ h2 {
 
 }
 
+/* Navigation Bar */
+
 .nav-item {
 
   padding: 0 18px;
@@ -78,10 +82,13 @@ h2 {
   width: 6rem;
 }
 
+/* Header Section */
+
 .styledText1 {
   color: whitesmoke;
   position: relative;
   bottom: 2rem;
+  line-height: 1.3;
 }
 
 .topCloud {
@@ -102,12 +109,13 @@ h2 {
   position: absolute;
   bottom: 0;
   left: 40%;
-
 }
 
 .mountain {
   width: 37rem;
 }
+
+/* About Me Section */
 
 
 #about-me {
@@ -152,7 +160,7 @@ h2 {
 }
 
 
-/* New Section: Skills */
+/* Skills Section */
 
 #skills {
 
@@ -224,7 +232,7 @@ line-height: 2;
   width: 14rem;
 }
 
-/*New Section: Portfolio-Web*/
+/* Web Portfolio Section */
 
 #portfolio-web {
 
@@ -270,7 +278,7 @@ line-height: 2;
   width: 48rem;
 }
 
-/*New Section: Portfolio-iOS*/
+/* iOS Portfolio Section */
 
 #portfolio-ios {
 
@@ -290,7 +298,7 @@ line-height: 2;
   font-weight: bold;
 }
 
-  /*New Section: Call To Action:*/
+/* Contact Section  */
 
 #contact {
 
@@ -309,7 +317,7 @@ line-height: 2;
 
 }
 
-/* New Section: Footer */
+/* Footer Section  */
 
 #footer {
 
@@ -366,6 +374,7 @@ line-height: 2;
 
 /*Media Queries*/
 
+
 @media (max-width: 900px) {
 
   .bottomCloud {
@@ -386,25 +395,15 @@ line-height: 2;
     margin-top: 5rem;
   }
 
-  .webAppImage {
-    width: 10rem;
-  }
-
   .iosAppImage {
-    width: 5rem;
+    width: 6rem;
   }
 
-  .appHeading {
-    font-size: 0.9rem;
-    padding: 15%;
-  }
-
-  .appDescription {
-    font-size: 0.8rem;
+  .btn {
+    font-size: 1rem;
   }
 
 }
-
 
 @media (max-width: 940px) {
 
@@ -419,6 +418,11 @@ line-height: 2;
 
   .skillHeader {
     font-size: 1.2rem;
+  }
+
+  .skillBody {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   #frontEndSkill {
@@ -437,10 +441,37 @@ line-height: 2;
     text-align: left;
   }
 
+  #computerImage {
+    top: -.7rem;
+    left: .5rem;
+  }
+
+  #designImage {
+    top: 1.5rem;
+    right: .8rem;
+  }
+
   #backendImage {
 
     position: relative;
-    top: -.5rem;
+    top: 1rem;
+    left: .5rem;
+  }
+
+  .appHeading {
+    font-size: .9rem;
+    padding: 5%;
+  }
+
+  .appDescription {
+    font-size: 0.8rem;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .webAppImage {
+    width: 17rem;
   }
 }
 
