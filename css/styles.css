@@ -442,7 +442,7 @@ line-height: 2;
   }
 
   #computerImage {
-    top: -.7rem;
+    top: -1.2rem;
     left: .5rem;
   }
 
@@ -454,7 +454,7 @@ line-height: 2;
   #backendImage {
 
     position: relative;
-    top: 1rem;
+    top: .5rem;
     left: .5rem;
   }
 
