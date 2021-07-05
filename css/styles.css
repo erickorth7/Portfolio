@@ -112,7 +112,8 @@ h2 {
 }
 
 .mountain {
-  width: 37rem;
+  width: 50%;
+  height:auto;
 }
 
 /* About Me Section */
@@ -265,18 +266,11 @@ line-height: 2;
 }
 
 .webAppImage {
-  border-radius: 5%;
-  width: 28rem;
+  border-radius: 3%;
+  width: 80%;
   margin-bottom: 2rem;
 }
 
-.lister {
-  width: 26.5rem;
-}
-
-.codemon {
-  width: 48rem;
-}
 
 /* iOS Portfolio Section */
 
@@ -469,11 +463,6 @@ line-height: 2;
 
 }
 
-@media (max-width: 1200px) {
-  .webAppImage {
-    width: 10rem;
-  }
-}
 
 @media (max-width: 1239px) {
 
