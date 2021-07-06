@@ -85,6 +85,10 @@ h2 {
   line-height: 1.3;
 }
 
+.smallerHeader {
+  font-size:2rem;
+}
+
 .topCloud {
 
   position: relative;
@@ -94,12 +98,12 @@ h2 {
 .bottomCloud {
 
   position: absolute;
-  width: 8rem;
+  width: 25%;
   top: 5rem;
   right: 3rem;
 }
 
-.mountainContainer {
+/* .mountainContainer {
   position: absolute;
   bottom: 0;
   left: 40%;
@@ -107,7 +111,16 @@ h2 {
 }
 
 .mountain {
-  width: 50%;
+  width:75%;
+  height:auto;
+  
+} */
+
+.mountain {
+  position:absolute;
+  bottom:0;
+  left:30%;
+  width:50%;
   height:auto;
 }
 
@@ -187,7 +200,7 @@ line-height: 2;
   float: left;
   position: relative;
   bottom: 2.5rem;
-  margin-right: 2rem;
+  margin-right:1rem;
 }
 
 #frontEndSkill {
@@ -199,7 +212,7 @@ line-height: 2;
 
   float: right;
   position: relative;
-  margin-left: 2rem;
+  margin-left:1rem;
 
 }
 
@@ -212,8 +225,8 @@ line-height: 2;
 #backendImage {
   float: left;
   position: relative;
-  top: 8rem;
-  margin-right: 2rem;
+  margin-right:1rem;
+  top:9rem;
 }
 
 #backEndSkill {
@@ -246,6 +259,7 @@ line-height: 2;
 
 .appHeading {
   font-weight: bold;
+  padding-top:1%;
 }
 
 
@@ -365,17 +379,17 @@ line-height: 2;
 
 @media (max-width: 750px) {
 
-  .webAppImage {
+  /* .webAppImage {
     width: 10rem;
-  }
+  } */
 
   .mountainContainer {
     left: 0;
   }
-
+/* 
   .mountain {
     width: 20rem;
-  }
+  } */
 
   #ericImage {
     width: 200px;
@@ -404,6 +418,10 @@ line-height: 2;
     width: 8rem;
   }
 
+  .skillHeader {
+    font-size:1.2rem;
+  }
+
   #frontEndSkill {
     text-align: left;
     position: relative;
@@ -420,7 +438,7 @@ line-height: 2;
     text-align: left;
   }
 
-  #computerImage {
+  /* #computerImage {
     top: -1.2rem;
     left: .5rem;
   }
@@ -429,18 +447,17 @@ line-height: 2;
     top: 1.5rem;
     right: .8rem;
   }
+*/
 
   #backendImage {
 
-    position: relative;
-    top: .5rem;
-    left: .5rem;
-  }
+   top:0;
+  } 
 
+/*
   .appHeading {
-    font-size: .9rem;
-    padding: 5%;
-  }
+    padding-top: 5%;
+  } */
 
   .appDescription {
     font-size: 0.8rem;
